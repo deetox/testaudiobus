@@ -13,6 +13,7 @@
 		673988C4195F723F00E12423 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673988C3195F723F00E12423 /* AVFoundation.framework */; };
 		673988C6195F724D00E12423 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673988C5195F724D00E12423 /* UIKit.framework */; };
 		673988C8195F725200E12423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673988C7195F725200E12423 /* Foundation.framework */; };
+		673BEF3119601178005DB8B8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 673BEF3019601178005DB8B8 /* README.md */; };
 		67B3D124195F3B00001E966B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B3D123195F3B00001E966B /* main.m */; };
 		67B3D127195F3B00001E966B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B3D126195F3B00001E966B /* AppDelegate.m */; };
 		67B3D129195F3B00001E966B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B3D128195F3B00001E966B /* Images.xcassets */; };
@@ -45,6 +46,7 @@
 		673988C3195F723F00E12423 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		673988C5195F724D00E12423 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		673988C7195F725200E12423 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		673BEF3019601178005DB8B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67B3D11E195F3B00001E966B /* Instrumants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instrumants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B3D122195F3B00001E966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67B3D123195F3B00001E966B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				67B3D13E195F3B25001E966B /* ABAnimatedTrigger.h */,
 				67B3D13F195F3B25001E966B /* ABAudiobusController.h */,
 				67B3D140195F3B25001E966B /* ABButtonTrigger.h */,
+				673BEF3019601178005DB8B8 /* README.md */,
 				67B3D141195F3B25001E966B /* ABCommon.h */,
 				67B3D142195F3B25001E966B /* ABFilterPort.h */,
 				67B3D143195F3B25001E966B /* ABMultiStreamBuffer.h */,
@@ -293,6 +296,7 @@
 			files = (
 				6739887B195F6E8E00E12423 /* ABSenderAudioEngine.m in Sources */,
 				67B3D127195F3B00001E966B /* AppDelegate.m in Sources */,
+				673BEF3119601178005DB8B8 /* README.md in Sources */,
 				67B3D15A195F3B49001E966B /* AudioBusConnector.m in Sources */,
 				67B3D124195F3B00001E966B /* main.m in Sources */,
 			);
