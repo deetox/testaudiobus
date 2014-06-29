@@ -13,9 +13,8 @@
 -(id)init {
     if ( !(self = [super init]) ) return nil;
     
-    //[[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
-    //[[AVAudioSession sharedInstance] setActive:YES error:nil];
-    
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback withOptions:AVAudioSessionCategoryOptionMixWithOthers error:nil];
+    [[AVAudioSession sharedInstance] setActive:YES error:nil];
     
     // Set up variables for the audio graph
     OSStatus result = noErr;
